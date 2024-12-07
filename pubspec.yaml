@@ -1,0 +1,48 @@
+name: twn_sqr
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.1
+  get_it: ^7.2.0
+  http: ^0.13.5
+  shared_preferences: ^2.0.15
+  flutter:
+    sdk: flutter
+  data_connection_checker_tv: ^0.3.5-nullsafety
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+assets:
+  - assets/images/
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: sf-pro-display
+      fonts:
+        - asset: lib/theme/fonts/sf-pro-display/SFPRODISPLAYBLACKITALIC.OTF
+          weight: 800
+        - asset: lib/theme/fonts/sf-pro-display/SFPRODISPLAYBOLD.OTF
+          weight: 700
+        - asset: lib/theme/fonts/sf-pro-display/SFPRODISPLAYSEMIBOLDITALIC.OTF
+          weight: 600
+        - asset: lib/theme/fonts/sf-pro-display/SFPRODISPLAYMEDIUM.OTF
+          weight: 500
+        - asset: lib/theme/fonts/sf-pro-display/SFPRODISPLAYREGULAR.OTF
+          weight: 400
+        - asset: lib/theme/fonts/sf-pro-display/SFPRODISPLAYTHINITALIC.OTF
+          weight: 300
+    - family: Yuji_Mai
+      fonts:
+        - asset: lib/theme/fonts/Yuji_Mai/YujiMai-Regular.ttf
